@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name=”renderer” content=”webkit”> -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> -->
+    <meta name="Keywords" content="中国青少年广播影视网,红领巾广播电视台,学习小组,少年宫活动,时代新人,青少年,红广计划,思政教育 素质教育,青春之声,广播影视,红影剧场,小记者 ,青少年宫事业,中国青少年宫事业,青少年宫事业70周年,我与青少年宫的故事,少年宫,中国青少年宫协会,宫协成立30周年,榜样的力量,非遗,非物质文化遗产,传统文化,新少年,航天,月球背面,改革开放40周年"/>
+    <meta name="Description" content="中国青少年广播影视网隶属于中国少年儿童发展服务中心，是面向全国广大青少年儿童的国家级网站及新媒体服务平台。中国青少年广播影视网以积极向上、主题鲜明的广播影视内容，引导广大青少年树立和实践社会主义核心价值观，为实现“两个一百年”奋斗目标和中华民族伟大复兴的中国梦而勤奋学习。"/>
+    <!-- <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no"> -->
+<title>学习小组</title>
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.png" />
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css">
+<link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/app.css">
+<link rel="stylesheet" href="css/enjoyReading.css">
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/swiper3.4.2.js"></script>
+<script src="js/eR.js"></script>
+
+<style type="text/css">
+.er-nav{
+    height: 54px;
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    color: #ffffff ;
+    justify-content: space-between;
+    
+}
+
+.er-nav a{
+    color: #ffffff;
+    cursor: pointer;
+} 
+.indexTab{
+    height: 100%;
+    padding: 20px 15px;
+}
+.indexTab:hover{
+    background:#b3070d;
+}
+
+</style>
+<!-- <script type="text/javascript" src="/js/tongji.js"></script> -->
+</head>
+<body style="padding-bottom: 0;">
+<div class="headerWrap">
+    <div class="headerWrap">
+        <div class="header heart" >
+           <a href="/"><div class="logo"><p style="margin-left: 412px; margin-top: 15px; font-size: 18px; color: #808080 !important;">助健康成长 育时代新人</p></div></a>
+           <div class="seachbox"><img src="img/seach.png" alt=""><input type="text" placeholder="请输入关键词搜索" id="s_keyword" class="s_keyword"><button id="s_btn" class="s_btn">搜索</button></div>
+           <div class="login"><div class="plam"></div><p>您好，<span class="plas">请登录</span></p><p class="regis">注册</p><p class="login-p pre">个人中心</p><p class="login-p quit">退出</p></div>
+        </div>
+    </div>
+    <div class="navWrap">
+            <ul class="er-nav">
+                        
+            <li class="indexTab" data-name="index">
+                <a target="_blank" href="/vocy/publish/news">新少年</a>
+            </li>
+            <li class="indexTab" data-name="broadcast">
+                <a target="_blank" href="/vocy/publish/c">红色少年广播电视台</a>
+            </li>
+            <li class="indexTab" data-name="textPage">
+                <a target="_blank" href="/vocy/publish/d">新闻</a>
+            </li>
+            <li class="indexTab" data-name="textPage">
+                <a target="_blank" href="/vocy/publish/e">科普</a>&nbsp;·
+                <a target="_blank" href="/vocy/publish/e">艺术</a>&nbsp;·
+                <a target="_blank" href="/vocy/publish/e">历史</a>
+            </li>
+            <li class="indexTab" data-name="textPage">
+                <a target="_blank" href="/vocy/publish/e">文学</a>&nbsp;·
+                <a target="_blank" href="/vocy/publish/e">体育</a>&nbsp;·
+                <a target="_blank" href="/vocy/publish/e">旅游</a>
+            </li>
+            <li class="indexTab" data-name="textPage">
+                <a target="_blank" href="/vocy/publish/e">环境</a>&nbsp;·
+                <a target="_blank" href="/vocy/publish/e">公益</a>&nbsp;·
+                <a target="_blank" href="/vocy/publish/e">图片</a>
+            </li>
+            <li class="indexTab" data-name="textPage">
+                <a target="_blank" href="/vocy/publish/e">爱阅读</a>
+            </li>
+            <li class="indexTab" data-name="textPage">
+                <a target="_blank" href="/vocy/publish/e">青春之声</a>
+            </li>
+            <li class="indexTab" data-name="textPage">
+                <a target="_blank" href="/vocy/publish/e">新少年剧场</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="bgc-color">
+    <!-- 头部banner -->
+    <div class="eR-bgimg" style="width: 1100px;height: 1360px;margin: 0 auto;">
+        <img style="width: 1920px;margin-left: -410px;" src="img/erImg/bgimg.png" alt="">
+    </div>
+<!-- 
+    <div class="heart">
+        <div class="guiding">
+            <b>导语</b>
+            爱阅读栏目的导语，介绍爱阅读栏目的基本信息，鼓励孩子们多读书、爱阅读。
+            爱阅读栏目的导语，介绍爱阅读栏目的基本信息，鼓励孩子们多读书、爱阅读。
+            爱阅读栏目的导语，介绍爱阅读栏目的基本信息，鼓励孩子们多读书、爱阅读。
+        </div>
+    </div> -->
+
+    <!-- content -->
+    <div class="first-content heart">
+        <!-- 第一板块 -->
+        <div class="fc-title"><img src="img/erImg/title_03.jpg" alt=""></div>
+        <div class="fc-title-content"><p>诗词歌赋的副标题副标题副标题</p></div>
+
+        <div class="fc-content-list">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="img/erImg/reading_15.jpg" alt="">
+                        <p>【古诗朗诵优秀作品】《九月九日忆山东兄弟》 —— 郑诗佳</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/erImg/reading_15.jpg" alt="">
+                        <p>【古诗朗诵优秀作品】《九月九日忆山东兄弟》 —— 郑诗佳</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/erImg/reading_15.jpg" alt="">
+                        <p>【古诗朗诵优秀作品】《九月九日忆山东兄弟》 —— 郑诗佳</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/erImg/reading_15.jpg" alt="">
+                        <p>【古诗朗诵优秀作品】《九月九日忆山东兄弟》 —— 郑诗佳</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/erImg/reading_15.jpg" alt="">
+                        <p>【古诗朗诵优秀作品】《九月九日忆山东兄弟》 —— 郑诗佳</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/erImg/reading_15.jpg" alt="">
+                        <p>【古诗朗诵优秀作品】《九月九日忆山东兄弟》 —— 郑诗佳</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+<!-- 第二板块 -->
+        <div class="fc-title"><img src="img/erImg/title_06.jpg" alt=""></div>
+        <div class="fc-title-content"><p>诗词歌赋的副标题副标题副标题</p></div>
+
+        <div class="fc-content-list">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="img/erImg/reading_26.jpg" alt="">
+                        <p>【古诗朗诵优秀作品】《九月九日忆山东兄弟》 —— 郑诗佳</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/erImg/reading_26.jpg" alt="">
+                        <p>【古诗朗诵优秀作品】《九月九日忆山东兄弟》 —— 郑诗佳</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/erImg/reading_26.jpg" alt="">
+                        <p>【古诗朗诵优秀作品】《九月九日忆山东兄弟》 —— 郑诗佳</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/erImg/reading_26.jpg" alt="">
+                        <p>【古诗朗诵优秀作品】《九月九日忆山东兄弟》 —— 郑诗佳</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/erImg/reading_26.jpg" alt="">
+                        <p>【古诗朗诵优秀作品】《九月九日忆山东兄弟》 —— 郑诗佳</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/erImg/reading_26.jpg" alt="">
+                        <p>【古诗朗诵优秀作品】《九月九日忆山东兄弟》 —— 郑诗佳</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- 第三板块 -->
+        <div class="fc-title"><img src="img/erImg/title_08.png" alt=""></div>
+        <div class="fc-title-content"><p>诗词歌赋的副标题副标题副标题</p></div>
+
+        <div class="fc-content-list">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="img/erImg/reading_30.jpg" alt="">
+                        <p>【古诗朗诵优秀作品】《九月九日忆山东兄弟》 —— 郑诗佳</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/erImg/reading_30.jpg" alt="">
+                        <p>【古诗朗诵优秀作品】《九月九日忆山东兄弟》 —— 郑诗佳</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/erImg/reading_30.jpg" alt="">
+                        <p>【古诗朗诵优秀作品】《九月九日忆山东兄弟》 —— 郑诗佳</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/erImg/reading_30.jpg" alt="">
+                        <p>【古诗朗诵优秀作品】《九月九日忆山东兄弟》 —— 郑诗佳</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/erImg/reading_30.jpg" alt="">
+                        <p>【古诗朗诵优秀作品】《九月九日忆山东兄弟》 —— 郑诗佳</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/erImg/reading_30.jpg" alt="">
+                        <p>【古诗朗诵优秀作品】《九月九日忆山东兄弟》 —— 郑诗佳</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- 征稿启事 -->
+        <div class="collect-article">
+            <div class="ca-dash"></div>
+            <div class="ca-title"><p>征稿启事</p></div>
+            <div class="ca-dash"></div>
+        </div>
+        <p class="ca-content">征稿启事的文字说明，征稿启事的文字说明，征稿启事的文字说明，征稿启事的文字说明，征稿启事的文字说明，征稿启事的文字说明，征稿启事的文字说明，征稿启事的文字说明，征稿启事的文字说明，征稿启事的文字说明，征稿启事的文字说明，征稿启事的文字说明，征稿启事的文字说明，征稿启事的文字说明，征稿启事的文字说明，征稿启事的文字说明，征稿启事的文字说明，征稿启事的文字说明，</p>
+        <img style="width: 1100px;margin-top: 26px;" src="img/erImg/reading_32.jpg" alt="">
+   
+
+
+
+
+    <!-- swiper -->
+    <div class="swiper-container"  id="upSwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><a href=""><img src="img/erImg/reading_36.jpg" alt=""></a></div>
+            <div class="swiper-slide"><a href=""><img src="img/erImg/reading_36.jpg" alt=""></a></div>
+            <div class="swiper-slide"><a href=""><img src="img/erImg/reading_36.jpg" alt=""></a></div>
+            <div class="swiper-slide"><a href=""><img src="img/erImg/reading_36.jpg" alt=""></a></div>
+            <div class="swiper-slide"><a href=""><img src="img/erImg/reading_36.jpg" alt=""></a></div>
+            <!-- <div class="swiper-slide"><img src="img/erImg/reading_36.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/erImg/reading_36.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/erImg/reading_36.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/erImg/reading_36.jpg" alt=""></div> -->
+        </div>
+    </div>
+    <p class="up-swiper-title">好书推荐—— 爱阅读</p>
+    <!-- 延伸阅读 -->
+    <div class="collect-article">
+        <div class="ca-dash"></div>
+        <div class="ca-title"><p>延伸阅读</p></div>
+        <div class="ca-dash"></div>
+    </div>
+    <div class="read-more-list">
+        <ul>
+            <li>
+                <a href="#">
+                    <img src="img/erImg/reading_40.jpg" alt="">
+                    <p>中国四大发明——造纸术</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/erImg/reading_40.jpg" alt="">
+                    <p>中国四大发明——造纸术</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/erImg/reading_40.jpg" alt="">
+                    <p>中国四大发明——造纸术</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/erImg/reading_40.jpg" alt="">
+                    <p>中国四大发明——造纸术</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/erImg/reading_40.jpg" alt="">
+                    <p>中国四大发明——造纸术</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/erImg/reading_40.jpg" alt="">
+                    <p>中国四大发明——造纸术</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/erImg/reading_40.jpg" alt="">
+                    <p>中国四大发明——造纸术</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/erImg/reading_40.jpg" alt="">
+                    <p>中国四大发明——造纸术</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- swiper -->
+    <!-- contrller -->
+    <div class="collect-article" style="margin-top: 60px;">
+        <div class="ca-dash"></div>
+        <div class="ca-title"><p>大事记</p></div>
+        <div class="ca-dash"></div>
+    </div>
+    <div class="move-controller">
+        <div class="move-prev"><img src="img/erImg/reading_47.jpg" alt=""></div>
+        <div class="move-line"></div>
+        <div class="move-next"><img src="img/erImg/reading_44.jpg" alt=""></div>
+    </div>
+    <div class="swiper-container" id="downSwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <a href="">
+                    <p class="time-name">东汉元兴元年</p>
+                    <div class="red-dot"></div>
+                    <div class="short-line"></div>
+                    <img src="img/erImg/reading_51.jpg" alt="">
+                    <p>中国四大发明一一一一造纸术中国四大发明一一一一造纸术</p>
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="">
+                    <p class="time-name">东汉元兴元年</p>
+                    <div class="red-dot"></div>
+                    <div class="short-line"></div>
+                    <img src="img/erImg/reading_51.jpg" alt="">
+                    <p>中国四大发明一一一一造纸术中国四大发明一一一一造纸术</p>
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="">
+                    <p class="time-name">东汉元兴元年</p>
+                    <div class="red-dot"></div>
+                    <div class="short-line"></div>
+                    <img src="img/erImg/reading_51.jpg" alt="">
+                    <p>中国四大发明一一一一造纸术中国四大发明一一一一造纸术</p>
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="">
+                    <p class="time-name">东汉元兴元年</p>
+                    <div class="red-dot"></div>
+                    <div class="short-line"></div>
+                    <img src="img/erImg/reading_51.jpg" alt="">
+                    <p>中国四大发明一一一一造纸术中国四大发明一一一一造纸术</p>
+                </a>
+            </div>
+            
+        </div>
+    </div>
+    <!-- 垂直居中div结束 -->
+</div>
+
+</div>
+
+
+
+
+
+
+<div class="footer">
+    <p>24小时违法和不良信息举报电话：010-65819899</p>
+    <p>中国青少年宫协会  Copyright © 1998 - 2019  All Rights Reserved</p> 
+    <p>信息网络传播视听节目许可证号0108232   京ICP备13017336号-4</p>
+    <p><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010102003290">京公网安备 11010102003290号</a>&nbsp;&nbsp;<a  target="_blank"  href="/about.htm">关于我们</a></p>
+</div>
+
+<!--登录框-->
+<div class="login-wra">
+	<div class="login-con">
+		<p class="login-Text">网站登录</p>
+        <!-- <img src="/img/xxx.jpg" class="close"/> -->
+    	<div class="inputArea">
+            <p><span>用户名：</span><input type="text" placeholder="用户名" required="required" class="user"></p>
+            <p><span>密码：</span><input type="password" placeholder="密码" required="required" class="password"></p>
+        </div>
+
+        <div class="checkbox" style="height: 21px;">
+            <input id="remember" type="checkbox" name="">
+            <label for="remember"></label>
+            <span class="remember">两周内免登录</span>
+           <span class="forgetPwd">忘记密码？</span>
+            <span class="err_hint"></span>
+        </div>
+        <button class="submitBtn">登录</button>
+        <button class="resetBtn">重置</button>
+	</div>
+</div>
+
+
+
+
+</body>
+</html>

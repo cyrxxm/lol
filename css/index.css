@@ -1,0 +1,574 @@
+a:hover {
+	color: #c90e18
+}
+
+img {
+	display: block
+}
+
+a {
+	cursor: pointer
+}
+
+.area1 {
+	height: 608px;
+	overflow: hidden;
+	margin-bottom: 34px
+}
+
+.area1 .block {
+	float: left;
+	min-height: 510px
+}
+
+.area1 .areaL {
+	width: 592px;
+	margin-right: 20px
+}
+
+.area1 .areaL .mainPic {
+	width: 592px;
+	height: 332px
+}
+
+.area1 .areaL .mainText {
+	margin-top: 18px;
+	margin-bottom: 22px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+
+.area1 .areaL .mainText a {
+	font-size: 22px;
+	color: #333
+}
+
+.area1 .areaL .mainUl .mainLi {
+	height: 52px;
+	border-top: 1px solid #ebebeb;
+	line-height: 52px
+}
+
+.area1 .areaL .mainUl .mainLi a {
+	color: #333;
+	font-size: 14px
+}
+
+.area1 .areaM {
+	width: 320px;
+	margin-right: 18px
+}
+
+.area1 .areaM .pic,.area1 .areaM img {
+	width: 320px;
+	height: 180px
+}
+
+.area1 .areaM .text {
+	margin: 12px 0 24px;
+	line-height: 20px
+}
+
+.area1 .areaM .text a {
+	color: #333;
+	font-size: 16px
+}
+
+.area1 .areaR {
+	width: 250px;
+	background: #fafafa
+}
+
+.area1 .areaR h3 {
+	border-left: 4px solid #c90e18;
+	height: 20px;
+	margin: 20px 0;
+	font-size: 20px;
+	font-weight: 700;
+	text-indent: 12px
+}
+
+.area1 .areaR .newsPic div {
+	position: relative
+}
+
+.area1 .areaR .newsPic .playButton {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -70px 0 0 -125px;
+	z-index: 1;
+	width: 250px;
+	height: 140px;
+	background: url(../img/playWhite.png) 50% no-repeat;
+	background-size: 42px 42px
+}
+
+.area1 .areaR .newsPic img {
+	width: 250px;
+	height: 140px
+}
+
+.area1 .areaR .newsPic p {
+	margin-top: 10px;
+	margin-bottom: 15px;
+	box-sizing: border-box;
+	padding: 0 10px
+}
+
+.area1 .areaR .newsPic a {
+	font-size: 14px;
+	color: #333;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 100%;
+	display: inline-block;
+	box-sizing: border-box
+}
+
+.area1 .areaR .redGrayLine {
+	width: 90%;
+	margin: 15px 0 0 5%;
+	background: #e6e6e6
+}
+
+.area1 .areaR h4 {
+	text-indent: 14px;
+	font-size: 16px;
+	color: #333;
+	font-weight: 400;
+	height: 42px;
+	line-height: 42px;
+	margin-bottom: 10px
+}
+
+.area1 .areaR .newsUl li {
+	height: 52px;
+	line-height: 52px;
+	border-bottom: 1px solid #ededed;
+	text-indent: 12px;
+	margin-right: 12px
+}
+
+.area1 .areaR .newsUl li,.area1 .areaR .newsUl li a {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+
+.area1 .areaR .newsUl li a {
+	color: #333;
+	font-size: 14px
+}
+
+.area1 .areaR .hotUl {
+	width: 90%;
+	margin-left: 5%
+}
+
+.area1 .areaR .hotUl li {
+	height: 31px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+
+.area1 .areaR .hotUl li span {
+	font-size: 14px;
+	font-style: italic;
+	margin: 0 10px
+}
+
+.area1 .areaR .hotUl li:first-child span,.area1 .areaR .hotUl li:nth-child(2) span,.area1 .areaR .hotUl li:nth-child(3) span {
+	color: #f0af00
+}
+
+.area1 .areaR .hotUl li a {
+	font-size: 12px;
+	color: #333;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap
+}
+
+.area1 .areaR .dotUl {
+	width: 90%;
+	margin-left: 5%
+}
+
+.area1 .areaR .dotUl li {
+	height: 30px;
+	position: relative;
+	padding-left: 20px;
+	line-height: 30px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+
+.area1 .areaR .dotUl li span {
+	position: absolute;
+	width: 3px;
+	height: 3px;
+	border-radius: 50%;
+	background: #666;
+	display: block;
+	top: 50%;
+	left: 10px
+}
+
+.area1 .areaR .dotUl li a {
+	font-size: 14px;
+	color: #666;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap
+}
+
+#rollPics {
+	margin-bottom: 20px;
+	height: 240px
+}
+
+#rollPics h3 {
+	font-size: 20px;
+	color: #333;
+	margin: 10px 0 20px;
+	font-weight: 400;
+	border-left: 4px solid #c90e18;
+    height: 20px;
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 700;
+    text-indent: 12px;
+}
+
+#rollPics .on {
+	border-color: transparent
+}
+
+#rollPics .img_hd {
+	width: 1132px;
+	margin: 0;
+	height: 240px
+}
+
+#rollPics .img,#rollPics li {
+	width: 200px;
+	height: 110px;
+	background-size: cover;
+	padding: 0;
+	margin: 0;
+	border: none;
+	display: inline-block;
+}
+
+#rollPics li {
+	height: 240px;
+	cursor: default;
+	width: 20%;
+}
+
+#rollPics li p {
+	font-size: 14px;
+	color: #333;
+	line-height: 20px;
+	text-align: left;
+	margin-top: 10px;
+	padding: 0 10px;
+}
+
+.redGrayLine {
+	width: 100%;
+	height: 1px;
+	background: #f5f5f5
+}
+
+.redGrayLine:before {
+	content: "";
+	width: 20%;
+	height: 1px;
+	display: block;
+	background: #c90e18
+}
+
+.areaLB {
+	width: 930px;
+	height: 600px;
+	float: left;
+	margin-right: 20px
+}
+
+.areaLB .title {
+	height: 54px;
+	line-height: 54px;
+	font-size: 20px;
+	color: #333
+}
+
+.areaLB .title span {
+	margin-right: 20px;
+	cursor: pointer
+}
+
+.areaLB .items li:nth-child(3n) {
+	margin-right: 0!important
+}
+
+.areaLB .itemBlock {
+	width: 294px;
+	height: 254px;
+	float: left;
+	position: relative;
+	margin-right: 20px;
+	margin-bottom: 20px
+}
+
+.areaLB .itemBlock img {
+	width: 294px;
+	height: 164px
+}
+
+.areaLB .itemBlock .itemTitle {
+	height: 42px;
+	line-height: 42px;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+
+.areaLB .itemBlock .itemTitle a {
+	color: #333;
+	font-size: 16px
+}
+
+.areaLB .itemBlock .text {
+	overflow: hidden;
+	height: 40px
+}
+
+.areaLB .itemBlock .text a {
+	font-size: 12px;
+	color: #666;
+	line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box !important;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.areaLB .itemBlock .tag {
+	width: 38px;
+	height: 18px;
+	background: #ffba00;
+	position: absolute;
+	top: 5px;
+	right: -4px;
+	font-size: 12px;
+	color: #fff;
+	line-height: 18px;
+	text-align: center;
+	z-index: 3;
+}
+
+.areaLB .itemBlock .tag:after {
+	content: "";
+	width: 0;
+	height: 0;
+	border-right: 2px solid transparent;
+	border-bottom: 2px solid transparent;
+	border-top: 2px solid #a07500;
+	border-left: 2px solid #a07500;
+	position: absolute;
+	right: 0;
+	bottom: -4px
+}
+
+.area2 {
+	height: 600px
+}
+
+.teamBar {
+	width: 1200px;
+	height: 120px;
+	margin-bottom: 34px
+}
+
+.teamBar img {
+	width: 100%;
+	height: 100%
+}
+
+#learnTeamTitle {
+	width: 1200px;
+	margin: 0 auto
+}
+
+#learnTeamTitle h3 {
+	font-size: 20px;
+	color: #333;
+	margin: 10px 0 20px;
+	font-weight: 400
+}
+
+.teamRecommend {
+	width: 1120px!important;
+	margin: 0 auto 40px
+}
+
+.teamRecommend h3 {
+	font-size: 16px!important;
+	font-weight: 400
+}
+
+.fourBlock {
+	margin-bottom: 40px
+}
+
+.fourBlock div:last-child {
+	margin-right: 0!important
+}
+
+.fourBlock .block {
+	float: left;
+	margin-right: 20px;
+	width: 283px;
+	height: 260px;
+	border: 1px solid #f5f5f5;
+	border-top: 2px solid #c90e18
+}
+
+.fourBlock .block h4 {
+	width: 220px;
+	height: 66px;
+	line-height: 66px;
+	font-size: 18px;
+	color: #333;
+	font-weight: 400;
+	margin: 0 auto;
+	text-align: center;
+	border-bottom: 1px solid #f3f3f3
+}
+
+.fourBlock .block h5 {
+	height: 55px;
+	line-height: 55px;
+	white-space: nowrap;
+	font-size: 14px;
+	text-align: center;
+	margin-bottom: 10px
+}
+
+.fourBlock .block h5,.fourBlock .block h5 a {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	vertical-align: middle
+}
+
+.fourBlock .block h5 a {
+	color: #333;
+	font-weight: 400;
+	padding: 0 30px;
+	width: 150px;
+	white-space: pre-wrap;
+	display: inline-block;
+	line-height: 20px;
+	max-height: 40px;
+	position: relative
+}
+
+.fourBlock .block p {
+	width: 190px;
+	margin: 0 auto;
+	line-height: 20px;
+	font-size: 12px;
+	color: #666
+}
+
+.fourBlock .block .subscribe {
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	margin: 20px auto 0!important;
+	color: #666;
+	font-size: 14px
+}
+
+.fourBlock .block span {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	vertical-align: middle;
+	cursor: pointer;
+	margin: 0 2px
+}
+
+.fourBlock .block .weixin {
+	background: url(../img/appIcon_03.jpg) 50% no-repeat;
+	background-size: contain
+}
+
+.fourBlock .block .blog {
+	background: url(../img/appIcon_05.jpg) 50% no-repeat;
+	background-size: contain
+}
+
+.fourBlock .block .toutiao {
+	background: url(../img/appIcon_07.png) 50% no-repeat;
+	background-size: contain
+}
+
+.fourBlock .block .ting {
+	background: url(../img/appIcon_09.jpg) 50% no-repeat;
+	background-size: contain
+}
+
+.theLink {
+	font-size: 18px;
+}
+
+.link_h {
+	color: #333;
+	font-weight: bold;
+	font-size: 16px;
+	height: 56px;
+	line-height: 56px;
+	border-bottom: 1px solid #f5f5f5;
+}
+
+.link_list {
+	padding: 8px 0 50px;
+}
+
+.link_list>p {
+	height: 30px;
+	line-height: 30px;
+}
+
+.link_list>p>a {
+	color: #666666;
+	font-size: 14px;
+	margin-right: 6px;
+	.thLink{font-size: 24px;
+	text-align: center;
+	height: 56px;
+	line-height: 56px;
+	width: 1000px;
+	margin: 0 auto 46px;
+	border-bottom: 1px solid #f5f5f5;
+	letter-spacing: 10px
+}
+
+.videoPlayer .vjs-big-play-button {
+	width: 40px!important;
+	height: 40px!important;
+	background-size: contain!important;
+	margin-top: -20px;
+	margin-left: -20px
+}
+
+
